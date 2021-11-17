@@ -1,5 +1,5 @@
 let fs = require('fs')
-global.owner = ['628112958665', '6288215569001','628998512588', '6283175998566', '6285693602003', '6283153189868'] // Letakan nomor kamu disini
+global.owner = ['6281252848955'] // Letakan nomor kamu disini
 global.mods = [''] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
@@ -26,7 +26,7 @@ global.APIKeys = { // APIKey nya disini
   'https://pencarikode.xyz': 'APIKEY',
   'https://api.xteam.xyz': 'HIRO',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.xyz': 'FVe0JFCdME58YSKmhoDWdRtyuJt',
+  'https://api.zeks.xyz': 'nandowangy',
   'https://api.lolhuman.xyz': '929b48b9aa5a91abed8526cd',
   'https://api.vhtear.com': 'sayahafiz',
   'https://fxc7-api.herokuapp.com': 'uN8rsK4g',
@@ -35,13 +35,13 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'Haruno'
-global.author = 'Fadli'
+global.packname = 'Made with'
+global.author = 'Moon Bot'
 
-global.wait = '「 ⏱️ 」Harap tunggu...'
-global.eror = '「❗」Server ERROR!'
+global.wait = 'Harap tunggu...'
+global.eror = 'Server ERROR!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '© Haruno' //change the watermark 
+global.watermark = '© Moon' //change the watermark 
 global.image = 'https://telegra.ph/file/63560c3d19d6bcce228f5.jpg' //change the image
 global.thumbfoto = 'https://telegra.ph/file/39bbded9693c9338069fd.jpg'
 
